@@ -16,20 +16,53 @@ var answer5 = prompt("If nautical nonsense be something you wish...");
 // if statement
 if ( answer1.toUpperCase() === 'AYE AYE CAPTAIN' ) {
  correct += 1;
+ document.write("<p> Your answer: '" + answer1 + "' was correct</p>");
+
+}
+else{
+  document.write("<p> Your answer: '" + answer1 + "' was incorrect</p>");
 }
 
 if ( answer2.toUpperCase() === 'AYE AYE CAPTAIN' ) {
  correct += 1;
+ document.write("<p> Your answer: '" + answer2 + "' was correct</p>");
 }
+
+else{
+  document.write("<p> Your answer: '" + answer2 + "' was incorrect</p>");
+}
+
+
 if ( answer3.toUpperCase() === 'SPONGEBOB SQUAREPANTS' ) {
  correct += 1;
+ document.write("<p> Your answer: '" + answer3 + "' was correct</p>");
 }
+
+else{
+  document.write("<p> Your answer: '" + answer3 + "' was incorrect</p>");
+}
+
+
 if ( answer4.toUpperCase() === 'SPONGEBOB SQUAREPANTS' ) {
  correct += 1;
+ document.write("<p> Your answer: '" + answer4 + "' was correct</p>");
 }
+
+else{
+  document.write("<p> Your answer: '" + answer4 + "' was incorrect</p>");
+}
+
+
 if ( answer5.toUpperCase() === 'SPONGEBOB SQUAREPANTS' ) {
  correct += 1;
+ document.write("<p> Your answer: '" + answer5 + "' was correct</p>");
 }
+
+else{
+  document.write("<p> Your answer: '" + answer5 + "' was incorrect</p>");
+}
+
+
  console.log(" Number Correct:" + correct);
 if (correct === 3)
 {
@@ -45,16 +78,3 @@ if (correct === 5)
 {
   alert( "GOLD MEDAL");
 }
-
-
-document.write("<p>" + answer1 + "</p>");
-
-document.write("<p>"+ answer2 +"</p>");
-
-
-document.write("<p>" + answer3 + "</p>");
-
-
-document.write("<p>" + answer4 + "</p>");
-
-document.write("<p>" + answer5 +"</p>");
